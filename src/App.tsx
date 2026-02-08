@@ -145,7 +145,7 @@ const Slide2 = () => {
 
   return (
     <section ref={ref} className="snap-section bg-gradient-to-br from-white via-pink-50 to-rose-50 overflow-hidden">
-      <div className="w-full h-full flex flex-col px-6 py-8 max-h-screen">
+      <div className="w-full h-full flex flex-col px-6 py-8 max-h-[100dvh]">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 30 }}
